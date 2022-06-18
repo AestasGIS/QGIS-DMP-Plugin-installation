@@ -22,7 +22,7 @@ Installationsfil til .NET Runtime kan findes på følgende hjemmeside:
 [https://dotnet.microsoft.com/en-us/download/dotnet/3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
 
 Der vælges en installationfil til &quot;.NET Runtime 3.1.26&quot; eller en senere version. Det er **ikke** nødvendigt at downloade hverken &quot;SDK&quot;, &quot;Desktop&quot; eller &quot;ASP&quot; udgaven af runtime. Man skal vælge den korrekte installationsfil afhængig af operativsystem og computer arkitektur. Dette vil i langt de fleste tilfælde være:
- &quot;Installers&quot;-\&gt;&quot;Windows&quot;-\&gt;[&quot;X64&quot;](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-3.1.26-windows-x64-installer)
+ "Installers" -> "Windows" ->["X64"](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-3.1.26-windows-x64-installer)
 
  For at installationen kan gennemføres er det nødvendigt at Windows brugeren har &quot;local admin&quot; rettigheder.
 
