@@ -42,7 +42,8 @@ Tryk på menupunkt &quot;Plugins&quot; -\&gt; &quot;Manage and Install Plugins�
 
 Følgende brugerdialog vises:
 
-![](RackMultipart20220618-1-os6lzi_html_3ed1a9f3380c4146.png)
+
+[](/Billede1.png)
 
 Tryk på knappen fremhævet med gult og vælg filen &quot;dmp\_manager.zip&quot; fra mappe &quot;Overførelser&quot; (eller hvor zip-filen blev downloadet til)
 
