@@ -1,6 +1,6 @@
 # QGIS-DMP-Plugin-installation
 
-**Installationsvejledning for QGIS DMP Manager – ET QGIS baseret plugin til håndtering og redigering af data fra Miljøportalen**
+**Installationsvejledning til QGIS DMP Manager – ET QGIS baseret plugin til håndtering og redigering af data fra Miljøportalen**
 
 Dette QGIS plugin indeholder funktioner til:
 
