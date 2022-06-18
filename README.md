@@ -1,6 +1,6 @@
 # QGIS-DMP-Plugin-installation
 
-**Installationsvejledning for QGIS DMP Manager – ET QGIS baseret plugin til håndtering og redigering af data fra Miljøportalen**
+**Installationsvejledning til QGIS DMP Manager – ET QGIS baseret plugin til håndtering og redigering af data fra Miljøportalen**
 
 Dette QGIS plugin indeholder funktioner til:
 
@@ -43,7 +43,7 @@ Tryk på menupunkt &quot;Plugins&quot; -\&gt; &quot;Manage and Install Plugins�
 Følgende brugerdialog vises:
 
 
-[](/Billede1.png)
+![](/Billede1.jpg)
 
 Tryk på knappen fremhævet med gult og vælg filen &quot;dmp\_manager.zip&quot; fra mappe &quot;Overførelser&quot; (eller hvor zip-filen blev downloadet til)
 
