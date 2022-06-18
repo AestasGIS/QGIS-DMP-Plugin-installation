@@ -43,7 +43,7 @@ Tryk på menupunkt &quot;Plugins&quot; -\&gt; &quot;Manage and Install Plugins�
 Følgende brugerdialog vises:
 
 
-[](/Billede1.jpg)
+![](/Billede1.jpg)
 
 Tryk på knappen fremhævet med gult og vælg filen &quot;dmp\_manager.zip&quot; fra mappe &quot;Overførelser&quot; (eller hvor zip-filen blev downloadet til)
 
