@@ -1,10 +1,11 @@
-# QGIS-DMP-Plugin-installation
+# QGIS DMP-Manager
 
 QGIS DMP Manager er et plugin, som giver brugeren mulighed for at downloade valgfri datalag fra DAI, Miljøportalen. 
 
-Data placeres i en lokal database baseret datakilde i form en tabel. Modtager databasen kan være af typen PostgreSQL, Oracle Spatial, MS-SQLServer, GeoPackage eller SpatiaLite.  
+Data placeres i en lokal datakilde i form en tabel i en database. Modtager-databasen kan være af typen PostgreSQL, Oracle Spatial, MS-SQLServer, GeoPackage eller SpatiaLite.  
 
-Download funktionen medfører, at der oprettes to tabeller for hvert data-lag, som hentes fra DAI: Et ”redigeringslag”, som brugeren kan rette i, dvs. oprette nye samt modificere eller slette eksisterende poster. Samtidigt oprettes en ”referencelag” i samme database hvor referencelaget struktur- og datamæssigt er fuldkommen ens med redigeringslaget (før brugeren begynder at rette data) - blot under et andet tabelnavn .
+Download funktionen medfører, at der oprettes to tabeller for hvert data-lag der hentes fra DAI: Et ”redigeringslag”, som brugeren kan rette i - dvs. oprette nye samt modificere eller slette eksisterende poster. Samtidigt oprettes en ”referencelag” i samme database hvor referencelaget struktur- og indholdsmæssigt er fuldkommen ens med redigeringslaget (før brugeren begynder at rette data) - blot under et andet tabelnavn.
+
 Redigeringslaget er et helt almindeligt data-lag i QGIS og du kan derfor benytte alle QGIS’s avancerede redigeringsfunktioner på dette lag. (Du må ikke rette i referencelaget, da man fjerner muligheden for plugin’et senere kan sammenligne dataindhold i redigeringslag og referencelag.)
 
 Man kan downloade flere typer af data-lag fra DAI, således at disse lag findes samtidigt som redigerings/referencelag i QGIS. Dette giver mulighed for at tilrette data på tværs af forskellige data-lag fra DAI. 
@@ -48,8 +49,19 @@ Se i øvrigt: https://www.gnu.org/licenses/gpl.html for en uddybende forklaring.
 
 Du kan downloade og bruge dette system uden at skulle betale licens til udvikleren. Det er helt gratis!
 
-Men selv om systemet er gratis er min tid brugt til evt. assistance *ikke*. Så hvis du henvender dig til mig vedr. hjælp til opsætning eller med forslag til forbedringer/fejlrettelser - så må du også forvente at få en faktura fra mig for tiden brugt til at hjælpe dig.
+Men selv om systemet er gratis er min tid brugt til evt. assistance *ikke*. Så hvis du henvender dig til mig vedr. hjælp til opsætning eller med ønsker om forbedringer - så må du også forvente at få en faktura fra mig for tiden brugt til at hjælpe dig.
 
 På den anden side vil du aldrig få en faktura fra mig uden at vi på forhånd har aftalt dette. Og alle forbedringer og rettelser betalt af dig vil fremadrettet være til glæde for alle brugere af systemet. Så det er en god idé at finde andre interessenter og slå sig sammen for at dele udgiften til større forbedringer. 
 
 Min nuv. timesats (19/6 2022) er 985,- kr. eks. moms pr. påbegyndt time.
+
+Alle fejlrapporter, forslag til forbedringer osv. bør først og fremmest oprettes som "issues" i dette repository (https://github.com/AestasGIS/QGIS-DMP-Plugin-installation/issues). Hvis du ikke har en GitHub account (som kan oprettes nemt og gratis...) kan du alternativt sende mig en mail: bvt@aestas.dk
+
+Med venlig hilsen
+
+Bo Victor Thomsen
+
+Civ.Ing., GIS- og Database-konsulent
+
+AestasGIS Danmark
+
