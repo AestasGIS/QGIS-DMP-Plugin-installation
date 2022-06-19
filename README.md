@@ -32,11 +32,9 @@ Kort fortalt medfører denne licens, at du som modtager af systemet:
 
 •	Kan selv tilrette eller videreudvikle kildekoden uden tilladelse fra - eller kompensation til leverandøren. 
 
-•	Eventuelle ændringer og tilføjelser til kildekoden bliver automatisk tvangsunderlagt samme GPL–licens som originalen.
-
 •	Kan videreformidle plugin-systemet og kildekode til tredjepart uden tilladelse fra eller kompensation til leverandøren.
 
-•	Ved videreformidling af programsystem og kildekode til tredjepart forbliver disse under GPL–licensen. Dvs. der gælder samme licensforhold mellem dig og tredjepart,
+•	Eventuelle ændringer og tilføjelser til kildekoden bliver automatisk tvangsunderlagt samme GPL–licens som originalen. Og ved videreformidling af programsystem og kildekode til tredjepart forbliver disse under GPL–licensen. Dvs. der gælder samme licensforhold mellem dig og tredjepart,
  som der gælder mellem den oprindelige udvikler og dig.
 
 Man kan kort sige, at du har fuld råderet til plugin-programmet og kildekode. Men det er ikke muligt at ændre på licensen og konsekvenserne af samme; 
@@ -50,6 +48,6 @@ Du kan downloade og bruge dette system uden at skulle betale licens til udvikler
 
 Men selv om systemet er gratis er min tid brugt til evt. assistance *ikke*. Så hvis du henvender dig til mig vedr. hjælp til opsætning eller med forslag til forbedringer/fejlrettelser - så må du også forvente at få en faktura fra mig for tiden brugt til at hjælpe dig.
 
-På den anden side vil du aldrig få en faktura fra mig uden at vi på forhånd har aftalt dette. Og alle forbedringer og rettelser betalt af dig vil fremadrettet være til glæde for alle brugere af systemet. Så det er en god idé at finde andre interessenter og slå sig sammen for at evt. at dele udgiften til større forbedringer. 
+På den anden side vil du aldrig få en faktura fra mig uden at vi på forhånd har aftalt dette. Og alle forbedringer og rettelser betalt af dig vil fremadrettet være til glæde for alle brugere af systemet. Så det er en god idé at finde andre interessenter og slå sig sammen for at dele udgiften til større forbedringer. 
 
 Min nuv. timesats (19/6 2022) er 985,- kr. eks. moms pr. påbegyndt time.
