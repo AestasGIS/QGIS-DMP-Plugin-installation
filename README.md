@@ -1,4 +1,4 @@
-# QGIS-DMP-Plugin-installation
+# QGIS DMP-Manager
 
 QGIS DMP Manager er et plugin, som giver brugeren mulighed for at downloade valgfri datalag fra DAI, Miljøportalen. 
 
