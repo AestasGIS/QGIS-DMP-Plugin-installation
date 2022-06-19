@@ -19,6 +19,8 @@ Plugin-et kan benyttes til både demo-miljøet og produktionsmiljøet hos DAI, M
 
 ## Vejledninger
 
+Download af alle filer i repository som én zip-fil udføres ved at trykke på den grønne knap i hovedskærmbilledet for repository og vælge "Download ZIP" i undermenuen.
+
 Der findes to vejledninger til plugin: "Installationvejledning.docx", som beskriver hvorledes systemet skal installeres. Og "Brugervejledning.docx", som beskriver den daglige brug af systemet.
 
 
@@ -28,13 +30,13 @@ Dette system et QGIS plugin dvs. en integreret udvidelse af QGIS. Dette betyder,
 
 Kort fortalt medfører denne licens, at du som modtager af systemet:
 
-•	Har fået den fulde programtekst (kildekoden) udleveret sammen med plugin-systemet.
+- Har fået den fulde programtekst (kildekoden) udleveret sammen med plugin-systemet.
 
-•	Kan selv tilrette eller videreudvikle kildekoden uden tilladelse fra - eller kompensation til leverandøren. 
+- Kan selv tilrette eller videreudvikle kildekoden uden tilladelse fra - eller kompensation til leverandøren. 
 
-•	Kan videreformidle plugin-systemet og kildekode til tredjepart uden tilladelse fra eller kompensation til leverandøren.
+- Kan videreformidle plugin-systemet og kildekode til tredjepart uden tilladelse fra eller kompensation til leverandøren.
 
-•	Eventuelle ændringer og tilføjelser til kildekoden bliver automatisk tvangsunderlagt samme GPL–licens som originalen. Og ved videreformidling af programsystem og kildekode til tredjepart forbliver disse under GPL–licensen. Dvs. der gælder samme licensforhold mellem dig og tredjepart,
+- Eventuelle ændringer og tilføjelser til kildekoden bliver automatisk tvangsunderlagt samme GPL–licens som originalen. Og ved videreformidling af programsystem og kildekode til tredjepart forbliver disse under GPL–licensen. Dvs. der gælder samme licensforhold mellem dig og tredjepart,
  som der gælder mellem den oprindelige udvikler og dig.
 
 Man kan kort sige, at du har fuld råderet til plugin-programmet og kildekode. Men det er ikke muligt at ændre på licensen og konsekvenserne af samme; 
