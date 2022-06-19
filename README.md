@@ -49,7 +49,7 @@ Se i øvrigt: https://www.gnu.org/licenses/gpl.html for en uddybende forklaring.
 
 Du kan downloade og bruge dette system uden at skulle betale licens til udvikleren. Det er helt gratis!
 
-Men selv om systemet er gratis er min tid brugt til evt. assistance *ikke*. Så hvis du henvender dig til mig vedr. hjælp til opsætning eller med ønsker om forbedringer - så må du også forvente at få en faktura fra mig for tiden brugt til at hjælpe dig.
+Men selv om systemet er gratis er min tid brugt til evt. assistance *ikke*. Så *hvis* du henvender dig til mig vedr. hjælp til opsætning eller med ønsker om forbedringer - så må du også forvente at få en faktura fra mig for tiden brugt til at hjælpe dig.
 
 På den anden side vil du aldrig få en faktura fra mig uden at vi på forhånd har aftalt dette. Og alle forbedringer og rettelser betalt af dig vil fremadrettet være til glæde for alle brugere af systemet. Så det er en god idé at finde andre interessenter og slå sig sammen for at dele udgiften til større forbedringer. 
 
