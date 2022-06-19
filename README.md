@@ -1,50 +1,55 @@
 # QGIS-DMP-Plugin-installation
 
-**Installationsvejledning til QGIS DMP Manager – ET QGIS baseret plugin til håndtering og redigering af data fra Miljøportalen**
+QGIS DMP Manager er et plugin, som giver brugeren mulighed for at downloade valgfri datalag fra DAI, Miljøportalen. 
 
-Dette QGIS plugin indeholder funktioner til:
+Data placeres i en lokal database baseret datakilde i form en tabel. Modtager databasen kan være af typen PostgreSQL, Oracle Spatial, MS-SQLServer, GeoPackage eller SpatiaLite.  
 
-- Download af DAI lag fra Miljøportalen, således data optræder som normale lag i QGIS.
-- Data lagres i to lag: Redigeringslaget, som brugeren efter download kan benytte til redigering af data; samt referencelaget, som vil blive benyttet til sammenligning i forbindelse med upload af ændringer til Miljøportalen.
-- Redigeringslaget kan redigeres (insert, update og delete) med alle QGIS redigeringsværktøjer. Redigerings session kan strække sig over flere sessioner i QGIS, hvis det af DMP plugin oprette projekt gemmes.
-- Efter redigering findes der værktøjer til sammenligning mellem de oprindelige data og de redigerede data.
-- Slutteligt findes der værktøjer til at uploade de redigerede data til Miljøportalen og registrere resultatet
+Download funktionen medfører, at der oprettes to tabeller for hvert data-lag, som hentes fra DAI: Et ”redigeringslag”, som brugeren kan rette i, dvs. oprette nye samt modificere eller slette eksisterende poster. Samtidigt oprettes en ”referencelag” i samme database hvor referencelaget struktur- og datamæssigt er fuldkommen ens med redigeringslaget (før brugeren begynder at rette data) - blot under et andet tabelnavn .
+Redigeringslaget er et helt almindeligt data-lag i QGIS og du kan derfor benytte alle QGIS’s avancerede redigeringsfunktioner på dette lag. (Du må ikke rette i referencelaget, da man fjerner muligheden for plugin’et senere kan sammenligne dataindhold i redigeringslag og referencelag.)
 
-###
+Man kan downloade flere typer af data-lag fra DAI, således at disse lag findes samtidigt som redigerings/referencelag i QGIS. Dette giver mulighed for at tilrette data på tværs af forskellige data-lag fra DAI. 
 
+Når tilretning er færdiggjort i redigeringslaget kan brugeren sammenligne data mellem redigeringslag og referencelag vha. en funktion i plugin-et. Funktionen finder alle forskelle mellem redigerings- og referencelag (oprettelser, rettelser og sletninger) og viser disse som lag - hhv. ”Oprettet”, ”Rettet” eller ”Slettet” i QGIS kortvinduet. Brugeren kan herefter kontrollere de enkelte modificerede elementer og efter kontrol ”skubbe” (uploade) modifikationerne tilbage til DAI.
 
-### Installation af .NET Runtime 3.1.26
+Plugin-et har mulighed for at gemme en tematisering (symbolisering) for hver DAI lagtype, således at samme tematisering vil blive benytte ved senere downloads af data-lag fra DAI. 
 
-Plugin&#39;et benytter nogle funktioner i .NET Runtime. Så denne runtime skal installeres før selve plugin&#39;et installeres.
+Plugin-et har slutteligt en række administrative funktioner, f.eks. at kunne opstarte QGIS geometri-tjekker på det valgte lag.
 
-Installationsfil til .NET Runtime kan findes på følgende hjemmeside:
+Plugin-et kan benyttes til både demo-miljøet og produktionsmiljøet hos DAI, Miljøportalen.  
 
-[https://dotnet.microsoft.com/en-us/download/dotnet/3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
+## Vejledninger
 
-Der vælges en installationfil til &quot;.NET Runtime 3.1.26&quot; eller en senere version. Det er **ikke** nødvendigt at downloade hverken &quot;SDK&quot;, &quot;Desktop&quot; eller &quot;ASP&quot; udgaven af runtime. Man skal vælge den korrekte installationsfil afhængig af operativsystem og computer arkitektur. Dette vil i langt de fleste tilfælde være:
- "Installers" -> "Windows" ->["X64"](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-3.1.26-windows-x64-installer)
-
- For at installationen kan gennemføres er det nødvendigt at Windows brugeren har &quot;local admin&quot; rettigheder.
-
- Installationen startes (og fuldføres) ved at dobbeltklikke på installationsfilen.
-
-### Installation af DMP Manger plugin.
-
-Plugin zip fil kan downloades fra hjemmesiden:
-
-[https://github.com/AestasGIS/QGIS-DMP-Plugin-installation/blob/main/dmp\_manager.zip](https://github.com/AestasGIS/QGIS-DMP-Plugin-installation/blob/main/dmp_manager.zip)
-
-og trykke på knap &quot;Download&quot;
-
-Efter download af plugin zip-fil foretages installationen i QGIS med følgende:
-
-Tryk på menupunkt &quot;Plugins&quot; -\&gt; &quot;Manage and Install Plugins….&quot; -\&gt; Faneblad &quot;Install from ZIP&quot;
-
-Følgende brugerdialog vises:
+Der findes to vejledninger til plugin: "Installationvejledning.docx", som beskriver hvorledes systemet skal installeres. Og "Brugervejledning.docx", som beskriver den daglige brug af systemet.
 
 
-![](/Billede1.jpg)
+## Rettigheder, licens o.a.:
 
-Tryk på knappen fremhævet med gult og vælg filen &quot;dmp\_manager.zip&quot; fra mappe &quot;Overførelser&quot; (eller hvor zip-filen blev downloadet til)
+Dette system et QGIS plugin dvs. en integreret udvidelse af QGIS. Dette betyder, at koden til det udførte arbejde er underlagt samme licens som selve QGIS: GPL- licensen. 
 
-Installationen gennemføres herefter ved at trykke på knap &quot;Install Plugin&quot;.
+Kort fortalt medfører denne licens, at du som modtager af systemet:
+
+•	Har fået den fulde programtekst (kildekoden) udleveret sammen med plugin-systemet.
+
+•	Kan selv tilrette eller videreudvikle kildekoden uden tilladelse fra - eller kompensation til leverandøren. 
+
+•	Eventuelle ændringer og tilføjelser til kildekoden bliver automatisk tvangsunderlagt samme GPL–licens som originalen.
+
+•	Kan videreformidle plugin-systemet og kildekode til tredjepart uden tilladelse fra eller kompensation til leverandøren.
+
+•	Ved videreformidling af programsystem og kildekode til tredjepart forbliver disse under GPL–licensen. Dvs. der gælder samme licensforhold mellem dig og tredjepart,
+ som der gælder mellem den oprindelige udvikler og dig.
+
+Man kan kort sige, at du har fuld råderet til plugin-programmet og kildekode. Men det er ikke muligt at ændre på licensen og konsekvenserne af samme; 
+ej heller på de programdele, som du evt. selv har videreudviklet.
+
+Se i øvrigt: https://www.gnu.org/licenses/gpl.html for en uddybende forklaring.
+  
+## Et lille hjertesuk:
+
+Du kan downloade og bruge dette system uden at skulle betale licens til udvikleren. Det er helt gratis!
+
+Men selv om systemet er gratis er min tid brugt til evt. assistance *ikke*. Så hvis du henvender dig til mig vedr. hjælp til opsætning eller med forslag til forbedringer/fejlrettelser - så må du også forvente at få en faktura fra mig for tiden brugt til at hjælpe dig.
+
+På den anden side vil du aldrig få en faktura fra mig uden at vi på forhånd har aftalt dette. Og alle forbedringer og rettelser betalt af dig vil fremadrettet være til glæde for alle brugere af systemet. Så det er en god idé at finde andre interessenter og slå sig sammen for at evt. at dele udgiften til større forbedringer. 
+
+Min nuv. timesats (19/6 2022) er 985,- kr. eks. moms pr. påbegyndt time.
