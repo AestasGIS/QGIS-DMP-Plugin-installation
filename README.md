@@ -2,7 +2,7 @@
 
 QGIS DMP Manager er et plugin, som giver brugeren mulighed for at downloade valgfri datalag fra DAI, Miljøportalen. 
 
-Data placeres i en lokal datakilde i form en tabel i en database. Modtager databasen kan være af typen PostgreSQL, Oracle Spatial, MS-SQLServer, GeoPackage eller SpatiaLite.  
+Data placeres i en lokal datakilde i form en tabel i en database. Modtager-databasen kan være af typen PostgreSQL, Oracle Spatial, MS-SQLServer, GeoPackage eller SpatiaLite.  
 
 Download funktionen medfører, at der oprettes to tabeller for hvert data-lag der hentes fra DAI: Et ”redigeringslag”, som brugeren kan rette i - dvs. oprette nye samt modificere eller slette eksisterende poster. Samtidigt oprettes en ”referencelag” i samme database hvor referencelaget struktur- og indholdsmæssigt er fuldkommen ens med redigeringslaget (før brugeren begynder at rette data) - blot under et andet tabelnavn.
 
