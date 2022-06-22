@@ -35,7 +35,7 @@ Kort fortalt medfører denne licens, at du som modtager af systemet:
 
 - Kan selv tilrette eller videreudvikle kildekoden uden tilladelse fra - eller kompensation til leverandøren. 
 
-- Kan videreformidle plugin-systemet og kildekode til tredjepart uden tilladelse fra eller kompensation til leverandøren.
+- Kan videreformidle plugin-systemet og kildekode til tredjepart uden tilladelse fra - eller kompensation til leverandøren.
 
 - Eventuelle ændringer og tilføjelser til kildekoden bliver automatisk tvangsunderlagt samme GPL–licens som originalen. Og ved videreformidling af programsystem og kildekode til tredjepart forbliver disse under GPL–licensen. Dvs. der gælder samme licensforhold mellem dig og tredjepart, som der gælder mellem den oprindelige udvikler og dig.
 
