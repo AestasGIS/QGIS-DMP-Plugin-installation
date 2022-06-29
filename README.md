@@ -44,6 +44,7 @@ ej heller på de programdele, som du evt. selv har videreudviklet.
 
 Se i øvrigt: https://www.gnu.org/licenses/gpl.html for en uddybende forklaring.
   
+
 ## Et lille hjertesuk:
 
 Du kan downloade og bruge dette system uden at skulle betale licens til udvikleren. Det er helt gratis!
@@ -54,7 +55,9 @@ På den anden side vil du aldrig få en faktura fra mig uden at vi på forhånd 
 
 Min nuv. timesats (19/6 2022) er 985,- kr. eks. moms pr. påbegyndt time.
 
-Alle fejlrapporter, forslag til forbedringer osv. bør først og fremmest oprettes som "issues" i dette repository (https://github.com/AestasGIS/QGIS-DMP-Plugin-installation/issues). Hvis du ikke har en GitHub account (som kan oprettes nemt og gratis...) kan du alternativt sende mig en mail: bvt@aestas.dk
+Alle fejlrapporter, forslag til forbedringer osv. bør først og fremmest oprettes som "issues" i dette repository (https://github.com/AestasGIS/QGIS-DMP-Plugin-installation/issues). Og før du laver en fejlrapport: Download og installér venligst den sidste nye udgave af plugin - og tjek om fejlen allerede er rettet. Det vil spare tid for både dig og mig :-)  
+
+Hvis du ikke har - og ikke ønsker at oprette - en GitHub account kan du alternativt sende mig en mail: bvt@aestas.dk
 
 Med venlig hilsen
 
