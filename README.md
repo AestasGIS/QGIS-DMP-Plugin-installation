@@ -2,9 +2,9 @@
 
 **Denne plugin er beregnet til QGIS ver. 3.22 eller senere.**
 
-QGIS DMP Manager er et plugin, som giver brugeren mulighed for at downloade valgfri datalag fra DAI, Miljøportalen. 
+QGIS DMP Manager er et plugin, som giver brugeren mulighed for at downloade valgfri datalag fra DAI, Miljøportalen. Man kan herefter bearbejde data ligesom alle andre redigérbare lag i QGIS. Slutteligt kan de redigerede data kopieres tilbage til Miljøportalen. 
 
-Data placeres i en lokal datakilde i form en tabel i en database. Modtager-databasen kan være af typen PostgreSQL, Oracle Spatial, MS-SQLServer, GeoPackage eller SpatiaLite.  
+Data placeres i en lokal datakilde i form en tabel i en database. Modtager-databasen kan være af typen PostgreSQL eller GeoPackage.  
 
 Download funktionen medfører, at der oprettes to tabeller for hvert data-lag der hentes fra DAI: Et ”redigeringslag”, som brugeren kan rette i; dvs. oprette nye,  modificere eller slette poster. Samtidigt oprettes en ”referencelag” i samme database hvor referencelaget struktur- og indholdsmæssigt er fuldkommen ens med redigeringslaget (før brugeren begynder at rette data) - blot under et andet tabel-navn.
 
@@ -26,6 +26,7 @@ Download af alle filer i repository som én zip-fil udføres ved at trykke på d
 
 Der findes to vejledninger til plugin: "Installationvejledning.docx", som beskriver hvorledes systemet skal installeres. Og "Brugervejledning.docx", som beskriver den daglige brug af systemet.
 
+Da systemet er noget kringlet at installere, anbefales det **kraftigt** at læse både installations- og bruger-vejledning før installation og brug...
 
 ## Rettigheder, licens o.a.:
 
@@ -46,6 +47,11 @@ ej heller på de programdele, som du evt. selv har videreudviklet.
 
 Se i øvrigt: https://www.gnu.org/licenses/gpl.html for en uddybende forklaring.
   
+## Rapportering af fejl:
+
+Alle fejlrapporter, forslag til forbedringer osv. bør først og fremmest oprettes som "issues" i dette repository (https://github.com/AestasGIS/QGIS-DMP-Plugin-installation/issues). Og før du laver en fejlrapport: Download og installér venligst den sidste nye udgave af plugin - og tjek om fejlen allerede er rettet. Det vil spare tid for både dig og mig :-)  
+
+Hvis du ikke har - og ikke ønsker at oprette - en GitHub account kan du alternativt sende mig en mail: bvt@aestas.dk
 
 ## Et lille hjertesuk:
 
@@ -57,9 +63,6 @@ På den anden side vil du aldrig få en faktura fra mig uden at vi på forhånd 
 
 Min nuv. timesats (19/6 2022) er 985,- kr. eks. moms pr. påbegyndt time.
 
-Alle fejlrapporter, forslag til forbedringer osv. bør først og fremmest oprettes som "issues" i dette repository (https://github.com/AestasGIS/QGIS-DMP-Plugin-installation/issues). Og før du laver en fejlrapport: Download og installér venligst den sidste nye udgave af plugin - og tjek om fejlen allerede er rettet. Det vil spare tid for både dig og mig :-)  
-
-Hvis du ikke har - og ikke ønsker at oprette - en GitHub account kan du alternativt sende mig en mail: bvt@aestas.dk
 
 Med venlig hilsen
 
