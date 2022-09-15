@@ -53,6 +53,9 @@ Alle fejlrapporter, forslag til forbedringer osv. bør først og fremmest oprett
 
 Hvis du ikke har - og ikke ønsker at oprette - en GitHub account kan du alternativt sende mig en mail: bvt@aestas.dk
 
+## Ny version på vej:
+Se "ForslagNyeFunktioner.docx" og "PrioriteringForslag.xslx"
+
 ## Et lille hjertesuk:
 
 Du kan downloade og bruge dette system uden at skulle betale licens til udvikleren. Det er helt gratis!
