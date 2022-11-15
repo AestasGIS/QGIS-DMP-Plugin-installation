@@ -51,7 +51,10 @@ Se i øvrigt: https://www.gnu.org/licenses/gpl.html for en uddybende forklaring.
 
 Alle fejlrapporter, forslag til forbedringer osv. bør først og fremmest oprettes som "issues" i dette repository (https://github.com/AestasGIS/QGIS-DMP-Plugin-installation/issues). Og før du laver en fejlrapport: Download og installér venligst den sidste nye udgave af plugin - og tjek om fejlen allerede er rettet. Det vil spare tid for både dig og mig :-)  
 
-Hvis du ikke har - og ikke ønsker at oprette - en GitHub account kan du alternativt sende mig en mail: bvt@aestas.dk
+Hvis du ikke har - og ikke ønsker at oprette - en GitHub account kan du alternativt bruge mailing listen (Se næste afsnit)
+
+## Mailing liste for plugin:
+Der er oprettet en mailing lsite: dmp-plugin@googlegroups.com, hvor medlemmer kan stille spørgsmål, indberette fejl og forslag til nye funktioner. Tilmelding ske ved at sende en mail til bvt@aestas.dk med oplysning om navn og mail adresse.
 
 ## Ny version på vej:
 Se "ForslagNyeFunktioner.docx" og "PrioriteringForslag.xslx"
