@@ -54,7 +54,7 @@ Alle fejlrapporter, forslag til forbedringer osv. bør først og fremmest oprett
 Hvis du ikke har - og ikke ønsker at oprette - en GitHub account kan du alternativt bruge mailing listen (Se næste afsnit)
 
 ## Mailing liste for plugin:
-Der er oprettet en mailing lsite: dmp-plugin@googlegroups.com, hvor medlemmer kan stille spørgsmål, indberette fejl og forslag til nye funktioner. Tilmelding ske ved at sende en mail til bvt@aestas.dk med oplysning om navn og mail adresse.
+Der er oprettet en mailing lsite: dmp-plugin@googlegroups.com, hvor medlemmer kan stille spørgsmål, indberette fejl og forslag til nye funktioner. Tilmelding kan ske ved at sende en mail til bvt@aestas.dk med oplysning om navn og mail adresse.
 
 ## Ny version på vej:
 Se "ForslagNyeFunktioner.docx" og "PrioriteringForslag.xslx"
