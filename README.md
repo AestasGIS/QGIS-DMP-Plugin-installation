@@ -2,6 +2,8 @@
 
 **Denne plugin er beregnet til QGIS ver. 3.22 eller senere.**
 
+** NB! Ny version fra den 4/7 2025, se nederst i denne readme. 
+
 QGIS DMP Manager er et plugin, som giver brugeren mulighed for at downloade valgfri datalag fra DAI, Miljøportalen. Man kan herefter bearbejde data ligesom alle andre redigérbare lag i QGIS. Slutteligt kan de redigerede data kopieres tilbage til Miljøportalen. 
 
 Data placeres i en lokal datakilde i form en tabel i en database. Modtager-databasen kan være af typen PostgreSQL eller GeoPackage.  
@@ -68,6 +70,25 @@ Men selv om systemet er gratis er min tid brugt til evt. assistance *ikke*. Så 
 På den anden side vil du aldrig få en faktura fra mig uden at vi på forhånd har aftalt dette. Og alle forbedringer og rettelser betalt af dig vil fremadrettet være til glæde for alle brugere af systemet. Så det er en god idé at finde andre interessenter og slå sig sammen for at dele udgiften til større forbedringer. 
 
 Min nuv. timesats (19/6 2022) er 985,- kr. eks. moms pr. påbegyndt time.
+
+## Ny version pr. 4/7 2025
+
+Miljøportalen har i løbet af 2025 ændret http adresserne på kommunikation til Miljøportalen. Dette er nu rettet til de nye værdier i plugin.
+
+Miljøportalen har skiftet teknologi, således at opsætning af den initiale kommunikation mellem plugin og Miljøportalens web server nu tager længere tid. Det betyder at ventetiden ved opstart er sat op fra 1 sekund til 5 sekunder af driftstekniske årsager. Det påvirker ikke den efterfølgende brug, som hverken er langsommere eller hurtigere end tidligere. Opstartstiden kan muligvis sættes noget ned, men det længere tidsrum er valgt for at undgå driftsfejl.
+
+Plugin kan nu modtage, behandle og uploade såkaldte "domain-multi" datatyper, dvs. felter, hvor det er tilladt at tildele flere værdier til et enkelt felt. Denne metode blev ikke brugt (eller dokumenteret) da DMP Manager plugin'et blev udviklet for en del år tilbage, men er blevet taget i  brug for "Beskyttede Sten og Jorddiger 2022" (type 2002), felt "beskyt-kode" / "Beskyttelsesårsag" 
+Visuelt er QGIS attribut dialogen ændret for dette felt, således der vises en afkrydsnings liste i stedet for en dropdown liste.
+
+Brugen af "domain -multi" felter medførte at funktionen til at loade data lokalt i GeoPackage ikke virkede længere. Dette er rettet.
+
+Vær opmærksom på at MiljøPortalen begrænser download antal til maksimalt 10.000 poster. Det påvirker bl.a. "Beskyttede Sten og Jorddiger 2022", da der landsdækkende er flere diger end 10.000. DMP Manager har en facilitet til kun at downloade data  indenfor  kortvinduet. Denne kan bruges til at garantere, at alle data indenfor et geografisk afgrænset område kommer med. 
+
+Plugin er blevet installeret og testet mod "demo" udgave af Miljøportalen i QGIS versionerne  3.40, 3.42 og 3.44. Plugin fungerer muligvis på tidligere udgaver af QGIS, men er dette er ikke afprøvet.
+
+Når DMP Manager geninstalleres, bliver opsætningen til database nulstillet, så husk at indstille DMP Manager til at bruge jeres Postgres database / GeoPackage igen.
+
+
 
 
 Med venlig hilsen
