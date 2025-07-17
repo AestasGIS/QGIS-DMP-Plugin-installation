@@ -82,6 +82,8 @@ Visuelt er QGIS attribut dialogen ændret for dette felt, således der vises en 
 
 Brugen af "domain -multi" felter medførte at funktionen til at loade data lokalt i GeoPackage ikke virkede længere. Dette er rettet.
 
+Efter download af et datasæt placeres dette datasøt nu i toppen af QGIS projektet. 
+
 Vær opmærksom på at MiljøPortalen begrænser download antal til maksimalt 10.000 poster. Det påvirker bl.a. "Beskyttede Sten og Jorddiger 2022", da der landsdækkende er flere diger end 10.000. DMP Manager har en facilitet til kun at downloade data  indenfor  kortvinduet. Denne kan bruges til at garantere, at alle data indenfor et geografisk afgrænset område kommer med. 
 
 Plugin er blevet installeret og testet mod "demo" udgave af Miljøportalen i QGIS versionerne  3.40, 3.42 og 3.44. Plugin fungerer muligvis på tidligere udgaver af QGIS, men er dette er ikke afprøvet.
