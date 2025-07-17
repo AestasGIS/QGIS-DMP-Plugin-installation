@@ -2,7 +2,7 @@
 
 **Denne plugin er beregnet til QGIS ver. 3.22 eller senere.**
 
-** NB! Ny version fra den 4/7 2025, se nederst i denne readme. 
+**NB! Ny version fra den 4/7 2025, se nederst i denne readme.** 
 
 QGIS DMP Manager er et plugin, som giver brugeren mulighed for at downloade valgfri datalag fra DAI, Miljøportalen. Man kan herefter bearbejde data ligesom alle andre redigérbare lag i QGIS. Slutteligt kan de redigerede data kopieres tilbage til Miljøportalen. 
 
@@ -86,6 +86,7 @@ Vær opmærksom på at MiljøPortalen begrænser download antal til maksimalt 10
 
 Plugin er blevet installeret og testet mod "demo" udgave af Miljøportalen i QGIS versionerne  3.40, 3.42 og 3.44. Plugin fungerer muligvis på tidligere udgaver af QGIS, men er dette er ikke afprøvet.
 
+Ved opgradering til den nye version er det _ikke_ nødvendigt at geninstallere .Net runtime. Den eksisterende version af .Net runtim fungerer fint med den ney version af DMP Manager plugin'et.
 Når DMP Manager geninstalleres, bliver opsætningen til database nulstillet, så husk at indstille DMP Manager til at bruge jeres Postgres database / GeoPackage igen.
 
 
