@@ -1,4 +1,4 @@
-# QGIS DMP Manager
+# QGIS DMP Manager 
 
 **Denne plugin er beregnet til QGIS ver. 3.22 eller senere.**
 
