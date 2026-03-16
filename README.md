@@ -1,3 +1,6 @@
+# NB! Via en aftale mellem AestasGIS og Septima (https://septima.dk/) er vedligeholdelsen pr. 2.kvartal 2026 af "QGIS DMP manager" blevet overtaget af Septima. 
+# Adressen for den nye udgave af "DMP manager" er nu: https://github.com/Septima/dmp_manager_distribution 
+
 # QGIS DMP Manager 
 
 **Denne plugin er beregnet til QGIS ver. 3.22 eller senere.**
